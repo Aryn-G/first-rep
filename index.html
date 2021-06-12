@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css" /> -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./static-portfolio/assets/css/index.css"
+    />
     <!-- Bootstrap Link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
@@ -18,7 +22,7 @@
   <body>
     <!-- NavBar -->
     <nav
-      class="navbar navbar-expand-lg sticky-top navbar-dark"
+      class="navbar navbar-expand-lg sticky-top navbar-dark text-center"
       style="background-color: #258895"
     >
       <div class="container-fluid">
@@ -108,34 +112,52 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search..."
-              aria-label="Search..."
-            />
-            <button class="btn btn-outline-light" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
-    <div class="container" style="margin-bottom: 50px;">
+    <div class="container">
       <div class="row">
+        <br />
+      </div>
+      <div class="row text-center">
         <div class="col-lg-3">
-          <h1>A Little Bit About Me</h1>
+          <div class="card">
+            <div class="card-body">
+              <h1>A little bit About Me</h1>
+            </div>
+          </div>
         </div>
         <div class="col-lg-1"></div>
         <div class="col-lg-8">
-          My Name Is Aryan Gera and I enjoy coding games and playing games. I
-          love learning new things such as coding. Right now I am learning to
-          code websites with HTML and CSS. Learn more about me in my Portfolio:
+          <div class="card">
+            <div class="card-body"></div>
+            My Name Is Aryan Gera and I enjoy coding games and playing games. I
+            love learning new things such as coding. Right now I am learning to
+            code websites with HTML and CSS. Learn more about me in my
+            Portfolio:
+            <br />
+            <br />
+            <div class="cont">
+              <a class="button" href="./static-portfolio/portfolio.html"
+                >Portfolio</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center" style="margin-top: 20px">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <h1>My Projects</h1>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Start-up Anim Fix -->
-    <script></script>
+    <script> </script>
     <!--Bootstrap JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"

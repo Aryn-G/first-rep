@@ -58,3 +58,13 @@ h1 {
 outline: none;
 box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5)
 } */
+
+.image-link {
+  transition: all 0.4s;
+  transition-timing-function: ease-in-out;
+}
+
+.image-link:hover {
+  transform: translate(0px, -2px);
+  box-shadow: 0px 10px 22px 5px rgba(0, 0, 0, 0.64);
+}

@@ -71,7 +71,7 @@ box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5)
 .flip-card {
   background-color: transparent;
   width: 100%;
-  height: 100%;
+  height: 416px;
   perspective: 1000px;
 }
 
@@ -110,4 +110,31 @@ box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5)
   margin-top: 35%;
   margin-bottom: 35%;
   color: white;
+}
+
+@media  screen and (max-width: 1399px) {
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 356px;
+    perspective: 1000px;
+  }
+}
+
+@media  screen and (max-width: 1199px) {
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 295.98px;
+    perspective: 1000px;
+  }
+}
+
+@media  screen and (max-width: 991px) {
+  .flip-card {
+    background-color: transparent;
+    width: 510px;
+    height: 510px;
+    perspective: 1000px;
+  }
 }

@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Me</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/contanct.css" />
     <!-- Bootstrap Link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
@@ -14,18 +13,21 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-
-
-
-
-
   </head>
   <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #258895;">
+    <nav
+      class="navbar navbar-expand-lg sticky-top navbar-dark"
+      style="background-color: #de1307"
+    >
       <div class="container-fluid">
         <a class="navbar-brand">
-          <img src="assets/images/home-icon-silhouette.svg" alt="" width="30" height="24">
+          <img
+            src="assets/images/home-icon-silhouette.svg"
+            alt=""
+            width="30"
+            height="24"
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -41,7 +43,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact Me</a>
@@ -61,33 +68,98 @@
                 Projects
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item ddtran" href="./static-portfolio/assets/pages/fakep1.html">Project 1</a></li>
-                <li><a class="dropdown-item ddtran" href="./static-portfolio/assets/pages/fakep2.html">Preject 2</a></li>
-                <li><a class="dropdown-item ddtran" href="./static-portfolio/assets/pages/fakep3.html">Project 3</a></li>
-                <li><a class="dropdown-item ddtran" href="./static-portfolio/assets/pages/fakep4.html">Project 4</a></li>
-                <li><a class="dropdown-item ddtran" href="./static-portfolio/assets/pages/fakep5.html">Preject 5</a></li>
+                <li>
+                  <a
+                    class="dropdown-item ddtran"
+                    href="./assets/pages/fakep1.html"
+                    >Project 1</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item ddtran"
+                    href="./assets/pages/fakep2.html"
+                    >Preject 2</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item ddtran"
+                    href="./assets/pages/fakep3.html"
+                    >Project 3</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item ddtran"
+                    href="./assets/pages/fakep4.html"
+                    >Project 4</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item ddtran"
+                    href="./assets/pages/fakep5.html"
+                    >Preject 5</a
+                  >
+                </li>
               </ul>
             </li>
           </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search..."
-              aria-label="Search..."
-            />
-            <button class="btn btn-outline-light" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>
-    <div class="row">
-      
+    <div class="container">
+      <br />
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h1>
+                <br>
+                <br>
+                Hover to reveal
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="card text-center">
+            <div class="card-body">
+              <h1 id="hover-reveal">
+                <br />
+                Email: fakeemail.123@gmail.com
+              </h1>
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h1>
+                <br>
+                <br>
+                My mailbox.
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="./assets/images/mailbox.png" alt="mailbox" class="img img-thumbnail" id="hover-reveal-img">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Start-up Anim Fix -->
-    <script> </script>
+    <script></script>
     <!--Bootstrap JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"

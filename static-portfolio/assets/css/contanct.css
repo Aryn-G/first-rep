@@ -1,0 +1,8 @@
+#hover-reveal {
+    color: white;
+    transition: color 0.1s ease;
+}
+#hover-reveal:hover {
+    color: #de1307;
+}
+
